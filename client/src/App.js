@@ -1,7 +1,14 @@
+import React from 'react';
+import About from './components/about/About';
 import Intro from './components/intro/Intro';
 
 const App = () => {
-  return <div><Intro/></div>;
-}
+  return (
+    <div>
+      <Intro />
+      <About />
+    </div>
+  );
+};
 
 export default App;
