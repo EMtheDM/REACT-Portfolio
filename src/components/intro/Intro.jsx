@@ -14,7 +14,7 @@ const Intro = () => {
                     <h1 className="i-name">Eric Martin</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                           <div style={{ color:darkMode ? "white" : "#003d7a" }}className="i-title-item">Web Developer</div> 
+                           <div style={{ color:darkMode ? "white" : "#003d7a" }} className="i-title-item">Web Developer</div> 
                            <div style={{ color:darkMode ? "white" : "#003d7a" }} className="i-title-item">UI/UX Designer</div> 
                            <div style={{ color:darkMode ? "white" : "#003d7a" }} className="i-title-item">Filmmaker/Photographer</div> 
                            <div style={{ color:darkMode ? "white" : "#003d7a" }} className="i-title-item">Pastor</div> 
@@ -27,7 +27,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
-                <div className="i-bg"></div>
+                <div style={{ backgroundColor:darkMode ? "white" : "#003d7a" }} className="i-bg"></div>
                 <img src={Me} alt="" className="i-img" />
             </div>
         </div>
