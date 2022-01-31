@@ -6,7 +6,7 @@
 .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color: #003d7a;
     position: absolute;
 }
 
@@ -30,6 +30,7 @@
 .c-title {
     font-size: 60px;
     width: 80%;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .c-info-item {

@@ -21,7 +21,7 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: #333;
+    background-color: #003d7a;
 }
 
 .a-card {
@@ -46,6 +46,7 @@
 
 .a-title {
     font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .a-sub {
@@ -54,23 +55,81 @@
 
 .a-desc {
     font-weight: 300;
+    padding: 10px;
 }
 
-.a-award {
+.a-tech {
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.a-award-texts {
-    width: 70%;
+.a-tech-texts {
+    /* width: 70%; */
+    display: flex;
+    align-items: center;
 }
 
-.a-award-title {
+.a-tech-title {
     font-weight: bold;
     color: #555;
     margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.a-tech-lang {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid black;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.a-tech-db {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid black;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.a-tech-frame {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid black;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.a-tech-servers {
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid black;
+    width: auto;
+    padding: 2px;
+    text-align: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.a-tech-item {
+    list-style-type: none;
+    justify-content: center;
+    
 }
 
 
