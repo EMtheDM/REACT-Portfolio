@@ -1,11 +1,11 @@
 import React from 'react';
-import "./productList.css";
+import "./portfolio.css";
 import Product from "../product/Product";
 import {products} from "../../data";
 
-const ProductList = () => {
+const Portfolio = () => {
   return (
-    <div className="pl">
+    <div className="pl portfolio">
         <div className="pl-texts">
             <h1 className="pl-title">Learn. Create. Grow.</h1>
             <p className="pl-desc">
@@ -22,4 +22,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default Portfolio;
