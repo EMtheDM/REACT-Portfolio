@@ -1,0 +1,29 @@
+.footer {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIcons {
+    padding: 10px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    decoration: none;
+}
+
+.github, .linkedIn, .instagram, .twitter:hover {
+    cursor: pointer;
+    decoration: none;
+}
+
+.github, .linkedIn, .instagram, .twitter:visited {
+    cursor: pointer;
+    decoration: none;
+}
