@@ -39,4 +39,10 @@
     .pl-desc {
         display: none;
     }
+
+    .pl-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -1,6 +1,7 @@
 export const products = [
   {
     id: 1,
+    title: "Note Taker",
     img: "https://i.ibb.co/HPr1cmZ/note-taker.png",
     gh: "https://github.com/EMtheDM/Note-Taker",
     link: "https://fathomless-coast-77295.herokuapp.com/",
@@ -8,6 +9,7 @@ export const products = [
   },
   {
     id: 2,
+    title: "Text Editor",
     img: "https://i.ibb.co/DM8ShQ0/text-editor.png",
     gh: "https://github.com/EMtheDM/Text-Editor",
     link: "https://ancient-beyond-37073.herokuapp.com/",
@@ -15,6 +17,7 @@ export const products = [
   },
   {
     id: 3,
+    title: "BrightIdeas",
     img: "https://i.ibb.co/hmwz7GL/brightideas.png",
     gh: "https://github.com/EMtheDM/BrightIdeas",
     link: "https://gentle-wildwood-55104.herokuapp.com/",
@@ -22,6 +25,7 @@ export const products = [
   },
   {
     id: 4,
+    title: "Weather Dashboard",
     img: "https://i.ibb.co/jVvNyqJ/weather-dashboard.png",
     gh: "https://github.com/EMtheDM/Weather-Dashboard",
     link: "https://emthedm.github.io/Weather-Dashboard/",
@@ -29,6 +33,7 @@ export const products = [
   },
   {
     id: 5,
+    title: "Tech Blog",
     img: "https://i.ibb.co/gwCBvZF/tech-blog.png",
     gh: "https://github.com/EMtheDM/Tech-Blog",
     link: "https://vast-ocean-80929.herokuapp.com/",
@@ -36,6 +41,7 @@ export const products = [
   },
   {
     id: 6,
+    title: "Watchr",
     img: "https://i.ibb.co/k8y8zZ1/watchr.png",
     gh: "https://github.com/EMtheDM/Watchr",
     link: "https://emthedm.github.io/Watchr/",

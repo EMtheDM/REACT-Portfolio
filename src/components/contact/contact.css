@@ -45,13 +45,27 @@
 }
 
 .c-icon {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 20px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .c-desc {
     font-weight: 200;
+}
+
+.c-link {
+    font-weight: 400;
+    text-decoration: none;
+    color: #003d7a
+}
+
+.c-link:hover {
+    color: lightblue;
 }
 
 form {
