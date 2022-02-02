@@ -28,10 +28,10 @@
     color: black;
 }
 
-.github:visited:hover, .linkedIn:visited:hover, .instagram:visited:hover, .twitter:visited:hover {
+/* .github:visited:hover, .linkedIn:visited:hover, .instagram:visited:hover, .twitter:visited:hover {
     cursor: pointer;
     color: #0037da;
-}
+} */
 
 @media screen and (max-width: 480px) {
     .footerIcons {
