@@ -65,6 +65,7 @@
 }
 
 .c-link:hover {
+    cursor: pointer;
     color: lightblue;
 }
 
