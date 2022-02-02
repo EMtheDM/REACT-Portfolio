@@ -18,6 +18,11 @@
     color: black;
 }
 
+.github, .linkedIn, .instagram, .twitter {
+    cursor: pointer;
+    color: black;
+}
+
 .github:hover, .linkedIn:hover, .instagram:hover, .twitter:hover {
     cursor: pointer;
     color: #0037da;
@@ -26,12 +31,13 @@
 .github:visited, .linkedIn:visited, .instagram:visited, .twitter:visited {
     cursor: pointer;
     color: black;
+    text-decoration: none;
 }
 
-/* .github:visited:hover, .linkedIn:visited:hover, .instagram:visited:hover, .twitter:visited:hover {
+.github:visited:hover, .linkedIn:visited:hover, .instagram:visited:hover, .twitter:visited:hover {
     cursor: pointer;
     color: #0037da;
-} */
+}
 
 @media screen and (max-width: 480px) {
     .footerIcons {
