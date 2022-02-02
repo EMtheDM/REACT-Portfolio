@@ -15,6 +15,7 @@ const Contact = () => {
         .then((result) => {
             console.log(result.text);
             setDone(true);
+            formRef.current.reset();
         }, (error) => {
             console.log(error.text);
         });
@@ -55,13 +56,13 @@ const Contact = () => {
           </div>
           <div className="c-right">
               <p className="c-desc">
-                  <b>Like what you see? Hire me!</b> Please complete the form below to get in touch with me.
+                  <b>Like what you see? Reach out!</b> Please complete the form below to get in touch with me.
               </p>
               <form ref={formRef} onSubmit={handleSubmit}>
-                  <input type="text" placeholder="Name" name="user_name" />
-                  <input type="text" placeholder="Subject" name="user_subject" />
-                  <input type="text" placeholder="Email" name="user_email" />
-                  <textarea rows="5" placeholder="Message" name="message"/>
+                  <input className="input-name" type="text" placeholder="Name" name="user_name" />
+                  <input className="input-subject" type="text" placeholder="Subject" name="user_subject" />
+                  <input className="input-email" type="text" placeholder="Email" name="user_email" />
+                  <textarea className="vertical" rows="5" placeholder="Message" name="message"/>
                   <button>Submit</button>
                   {done && "Thank you..."}
               </form>

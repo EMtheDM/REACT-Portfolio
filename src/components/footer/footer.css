@@ -1,16 +1,15 @@
 .footer {
     width: 100vw;
-    height: 15vh;
     position: relative;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 8rem;
 }
 
 .footerIcons {
     padding: 100px;
-    width: 30%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;

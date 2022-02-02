@@ -24,19 +24,20 @@
 .nav-menu {
     background-color: #003d7a;
     width: 250px;
-    height: 100vh;
+    height: 55vh;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 0;
     left: -100%;
-    transition: 850ms;
+    transition: 1000ms;
     z-index: 7;
+    border-bottom-right-radius: 25px;
 }
 
 .nav-menu.active {
     left: 0;
-    transition: 350ms;
+    transition: 400ms;
     display: flex;
     position: absolute;
     z-index: 7;
@@ -85,6 +86,7 @@ span {
 }
 
 .nav-name {
+    font-family: 'Permanent Marker', cursive;
     flex: 1;
     display: flex;
     align-items: center;
@@ -106,7 +108,7 @@ span {
     }
 
     .navbar {
-        width: 50vh;
+        width: 41.5vh;
     }
     
 }
