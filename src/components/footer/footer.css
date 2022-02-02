@@ -1,7 +1,7 @@
 .footer {
     width: 100vw;
     height: 15vh;
-    position: absolute;
+    position: relative;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -9,21 +9,27 @@
 }
 
 .footerIcons {
-    padding: 10px;
-    width: 15vw;
+    padding: 100px;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     text-decoration: none;
-    decoration: none;
+    font-size: 60px;
+    color: black;
 }
 
-.github, .linkedIn, .instagram, .twitter:hover {
+.github:hover, .linkedIn:hover, .instagram:hover, .twitter:hover {
     cursor: pointer;
-    decoration: none;
+    color: #0037da;
 }
 
-.github, .linkedIn, .instagram, .twitter:visited {
+.github:visited, .linkedIn:visited, .instagram:visited, .twitter:visited {
     cursor: pointer;
-    decoration: none;
+    color: black;
+}
+
+.github:visited:hover, .linkedIn:visited:hover, .instagram:visited:hover, .twitter:visited:hover {
+    cursor: pointer;
+    color: #0037da;
 }

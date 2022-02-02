@@ -101,10 +101,12 @@ span {
     }
 
     .nav-name {
-        display: none;
+        font-size: 30px;
+        justify-content: center;
     }
 
     .navbar {
         width: 50vh;
     }
+    
 }
