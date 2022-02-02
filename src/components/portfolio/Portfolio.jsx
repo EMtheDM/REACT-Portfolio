@@ -14,7 +14,7 @@ const Portfolio = () => {
         </div>
         <div className="pl-list">
           {products.map((item) => (
-            <Product key={item.id} title={item.title} img={item.img} gh={item.gh} link={item.link} desc={item.desc} />
+            <Product key={item.id} title={item.title} img={item.img} gh={item.gh} link={item.link} desc={item.desc} tech={item.tech} />
           ))}
              
         </div>

@@ -3,7 +3,7 @@ import "./product.css";
 import * as AiIcons from "react-icons/ai";
 import * as CgIcons from "react-icons/cg";
 
-const Product = ({title, img, link, gh, desc}) => {
+const Product = ({title, img, link, gh, desc, tech}) => {
   return (
     <div className="p-box">
         <div className="p-browser">
@@ -17,6 +17,9 @@ const Product = ({title, img, link, gh, desc}) => {
         <h2 className="p-title"> {title} </h2>
         <p className='p-desc'>
           {desc}
+        </p>
+        <p className='p-tech'>
+          {tech}
         </p>
         <div className='p-icon'>        
         <a href={gh} target="_blank" rel="noreferrer" className='p-icon'>

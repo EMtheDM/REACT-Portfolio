@@ -1,6 +1,6 @@
 .p-box {
     width: 30%;
-    height: 49vh;
+    height: 55vh;
     margin: 20px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px;
@@ -45,6 +45,12 @@
     margin: 2px;
 }
 
+.p-tech {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
 .p-icon {
     display: flex;
     justify-content: space-evenly;
@@ -61,7 +67,7 @@
 @media screen and (max-width: 480px) {
     .p-box {
         width: 70%;
-        height: 35vh;
+        height: 40vh;
     }
 
     .p-desc {
