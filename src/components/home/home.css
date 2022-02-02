@@ -17,6 +17,7 @@
 }
 
 .i-left-wrapper {
+    margin-top: 40px;
     padding: 50px;
     height: 50%;
     display: flex;
@@ -94,14 +95,13 @@
 @media screen and (max-width: 480px) {
     .i {
         flex-direction: column;
+        height: 80vh;
     }
 
     .i-left-wrapper {
-        padding: 10px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: 100%;
     }
 
     .i-desc {
@@ -133,6 +133,9 @@
         max-width: 80vw;
         height: 50vh;
         object-fit: cover;
-        bottom: 50px;
+    }
+
+    .i-name {
+        display: none;
     }
 }

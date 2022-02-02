@@ -16,7 +16,7 @@
     flex: 1;
     position: relative;
     height: 100%;
-    margin-top: 1.5rem;
+    margin-top: 20rem;
 }
 
 .a-card {
@@ -46,11 +46,18 @@
 
 .a-sub {
     margin: 20px 0px;
+    font-size: 20px;
 }
 
 .a-desc {
+    width: 60%;
     font-weight: 300;
     padding: 10px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 1rem;
 }
 
 .a-tech {
@@ -127,12 +134,37 @@
     
 }
 
+.a-quote {
+    font-size: 12px;
+}
+
+.a-tech-list {
+    display: flex;
+    width: 50%;
+}
+
+.a-tech-list-title {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.a-tech-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 480px) {
     .a {
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 120px;
     }
 
     .a-left {
@@ -141,7 +173,8 @@
         display: flex;
         padding: 0;
         left: 0;
-        top: 50px;
+        top: 60px;
+        width: 100%;
     }
 
     .a-card {
@@ -155,7 +188,39 @@
     .a-right {
         padding: 20px;
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        top: -60px
     }
 
+    h2 {
+        display: none;
+    }
+
+    .a-tech-list {
+        display: none;
+    }
+
+    .a-sub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -60px;
+    }
+
+    .a-quote {
+        display: none;
+    }
+
+    .a-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 75px;
+    }
+
+    .a-mobile {
+        display: none;
+    }
 
 }
