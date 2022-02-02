@@ -9,12 +9,12 @@ const Portfolio = () => {
         <div className="pl-texts">
             <h1 className="pl-title">Learn. Create. Grow.</h1>
             <p className="pl-desc">
-                Lama is a creative portfolio that your work has been waiting for. Beautiful homes, stunning portfolio styles & a whole lot more inside.
+                In order to create amazing sites and apps, you have to start somewhere. Below are some of my favorite projects that I've had the pleasure of working on. As I've progressed in my craft, I've also fallen in love all over again with coding!
             </p>
         </div>
         <div className="pl-list">
           {products.map((item) => (
-            <Product key={item.id} img={item.img} link={item.link} />
+            <Product key={item.id} img={item.img} gh={item.gh} link={item.link} desc={item.desc} />
           ))}
              
         </div>
