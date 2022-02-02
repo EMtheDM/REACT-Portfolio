@@ -6,7 +6,7 @@ import * as BsIcons from "react-icons/bs";
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/',
+        path: 'REACT-Portfolio/',
         icon: <AiIcons.AiOutlineHome />,
         cName: 'nav-text'
     },
