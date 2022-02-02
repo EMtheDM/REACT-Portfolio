@@ -31,6 +31,11 @@
     .pl {
         padding: 10px;
     }
+    
+    .pl-title {
+        margin-top: 8rem;
+        /* display: none; */
+    }
 
     .pl-texts {
         width: 100%;
@@ -44,5 +49,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 2rem;
     }
 }

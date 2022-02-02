@@ -13,7 +13,7 @@ export const products = [
     img: "https://i.ibb.co/DM8ShQ0/text-editor.png",
     gh: "https://github.com/EMtheDM/Text-Editor",
     link: "https://ancient-beyond-37073.herokuapp.com/",
-    desc: "A simple single-page text-editor that meets PWA criteria."
+    desc: "A simple single-page text-editor that meets PWA criteria. The application can also function offline."
   },
   {
     id: 3,
