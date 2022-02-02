@@ -18,7 +18,7 @@ const Home = () => {
                         </div>
                     </div> 
                     <p className="i-desc">
-                        I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+                        Hi! I'm Eric. Thanks for visiting my page. I hope you enjoy your time here. I designed this page myself. I wanted to give it a simple and intuitive design so that you would have fun perusing.
                     </p>
                 </div>
             </div>
