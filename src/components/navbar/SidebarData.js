@@ -33,5 +33,5 @@ export const SidebarData = [
         path: '/resume',
         icon: <AiIcons.AiOutlineFile />,
         cName: 'nav-text'
-    },
+    }
 ]
