@@ -3,6 +3,8 @@
 
   ## Description
   Thank you for looking at my portfolio. This portfolio utilizes the ReactJS library to create a single page application. It also utilizes emailJS. A user is able to quickly and intuitively navigate the portfolio to learn more about me, look at my skills and work, as well as contact me by filling out a contact form that uses emailJS.
+
+  Visit my portfolio at: [https://emthedm.github.io/REACT-Portfolio/](https://emthedm.github.io/REACT-Portfolio/)
   ## Table of Contents
   * [Usage](#usage)
   * [License](#license)
