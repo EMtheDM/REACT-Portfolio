@@ -97,12 +97,12 @@ const Resume = () => {
               <h2 className="techTitle">
                 TECHNOLOGY
               </h2>
-              <span className="techTopic">Languages: </span>
-              <span className="techContent">HTML, CSS, JavaScript, SQL, MongoDB, Node.js, GraphQL</span>
+              <span className="techTopic">Frameworks: </span>
+              <span className="techContent">HTML, CSS, JavaScript, MySQL, MongoDB, Node.js, GraphQL</span>
               <span className="techTopic">Libraries: </span>
-              <span className="techContent">ReactJS, Bootstrap, jQuery, Node, Express, Sequelize, Mongoose, Handlebars, Bulma</span>
+              <span className="techContent">ReactJS, Bootstrap, jQuery, Node, Express, TailwindCSS, Sequelize, Mongoose, Handlebars, Bulma</span>
               <span className="techTopic">Applications: </span>
-              <span className="techContent">GitHub, Heroku, GitLab, NPM, Compass, dBeaver, Insomnia</span>
+              <span className="techContent">GitHub, Heroku, GitLab, NPM, Compass, Atlas, dBeaver, Insomnia</span>
             </div>
           </div>
         </div>
