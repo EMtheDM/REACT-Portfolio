@@ -1,6 +1,6 @@
 import './resume.css';
 import * as BsIcons from 'react-icons/bs';
-import EricResume from '../resume/Resume.pdf';
+import EricResume from '../resume/EricResume.pdf';
 
 const Resume = () => {
   return (
