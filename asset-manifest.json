@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/REACT-Portfolio/static/css/main.00734f7c.css",
-    "main.js": "/REACT-Portfolio/static/js/main.f9401451.js",
+    "main.js": "/REACT-Portfolio/static/js/main.1845a1fe.js",
     "static/media/me.png": "/REACT-Portfolio/static/media/me.00abf43264166e87815a.png",
-    "static/media/Resume.pdf": "/REACT-Portfolio/static/media/Resume.211c561717691cc91bc6.pdf",
+    "static/media/EricResume.pdf": "/REACT-Portfolio/static/media/EricResume.211c561717691cc91bc6.pdf",
     "index.html": "/REACT-Portfolio/index.html",
     "main.00734f7c.css.map": "/REACT-Portfolio/static/css/main.00734f7c.css.map",
-    "main.f9401451.js.map": "/REACT-Portfolio/static/js/main.f9401451.js.map"
+    "main.1845a1fe.js.map": "/REACT-Portfolio/static/js/main.1845a1fe.js.map"
   },
   "entrypoints": [
     "static/css/main.00734f7c.css",
-    "static/js/main.f9401451.js"
+    "static/js/main.1845a1fe.js"
   ]
 }
