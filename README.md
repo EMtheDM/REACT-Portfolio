@@ -38,5 +38,3 @@ Visit my portfolio at: [https://emthedm.github.io/REACT-Portfolio/](https://emth
 ## Questions
 
 If you would like to connect with me about my REACT Portfolio, please email me at eric_martin@me.com or their gitHub at [EMtheDM](https://github.com/EMtheDM).
-
-## Test
